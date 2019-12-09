@@ -1,0 +1,228 @@
+.pricing-plan {
+  text-align: center;
+  padding: 40px 20px 40px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  background-color:$backgroundLightColor;
+
+  .price-wrap {
+    font-family: 'Poppins', sans-serif;
+    display: inline-block;
+    position: relative;
+    font-size: 20px;
+    line-height: 0.7;
+    margin: 60px 0 10px;
+
+    &[class*='bg-'] {
+      padding: 30px 30px 10px;
+      margin-top: 50px;
+      margin-bottom: 0;
+      .plan-decimals{
+        right:33px;
+      }
+    }
+    .plan-decimals{
+      position: absolute;
+      right:2px;
+      font-size: 30px;
+    }
+    .plan-price {
+      font-size: 62px;
+      font-weight: 900;
+    }
+    .plan-sign{
+      text-transform: uppercase;
+    }
+  }
+
+  .plan-description{
+    margin-top:1.8em;
+  }
+
+  [class*='bg-'] {
+    padding: 10px 30px 30px;
+    margin-left: -41px;
+    margin-right: -41px;
+  }
+  .plan-name {
+    &[class*='bg-'] {
+      padding-top: 30px;
+      margin-top: -40px;
+    }
+    h3 {
+      font-size: 20px;
+      letter-spacing:0;
+      font-weight: 300;
+      line-height: 1;
+    }
+  }
+
+  @media(min-width: 1200px) {
+    padding: 58px 30px 60px;
+    [class*='bg-'] {
+      margin-left: -61px;
+      margin-right: -61px;
+    }
+    .plan-name[class*='bg-'] {
+      margin-top: -57px;
+    }
+  }
+
+  .plan-features {
+    margin:55px 0 48px;
+    padding-top: 52px;
+    position: relative;
+    &:before, &:after{
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+   }
+    &:before{
+      height: 1px;
+      width: 66%;
+      left: 50%;
+      -moz-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      background-color:$borderDarkColor;
+      opacity:1;
+    }
+    &:after{
+      height: 5px;
+      width: 70px;
+      top: -2px;
+      left: 50%;
+      -moz-transform: translateX(-50%);
+      -webkit-transform: translateX(-50%);
+      -o-transform: translateX(-50%);
+      -ms-transform: translateX(-50%);
+      transform: translateX(-50%);
+      background-color:$colorMain;
+    }
+    ul{
+      line-height:2.3;
+    }
+  }
+
+
+
+  //featured border
+  &.plan-featured {
+    border: 10px solid $colorMain;
+    background-color:$colorMain;
+    transform: translateY(-34px);
+    padding:48px 20px 48px;
+    .plan-features:after{
+      background-color: $lightColor;
+    }
+    .plan-features:before{
+      background-color: $lightColor;
+      opacity: 0.2;
+    }
+    .plan-button a{
+      color: $lightColor;
+      border-color: $lightColor;
+      &:hover{
+        color: $colorMain;
+        background-color:$lightColor;
+      }
+    }
+  }
+  hr {
+    margin: 15px 0;
+  }
+  //builder enabled/disabled icon
+  .fw-switch-row {
+    position: absolute;
+  }
+  .desc-col & {
+    padding-left: 0;
+    padding-right: 0;
+    .fw-switch-row {
+      display: none;
+    }
+  }
+  .plan-button{
+    a {
+      font-size: 16px;
+      font-weight:600;
+      padding: 6px 31px;
+    }
+  }
+}
+
+.plan-featured {
+  .price-wrap span {
+    color: $lightColor;
+  }
+  ul.list-styled-caret li:before{
+    color: $lightColor;
+  }
+}
+@media (max-width: 1199px) {
+  .pricing-plan.plan-featured {
+    padding: 30px 20px 30px;
+  }
+  .pricing-plan .plan-features {
+    margin: 40px 0 30px;
+    padding-top: 40px;
+    position: relative;
+  }
+}
+
+@media (max-width: 1024px) {
+  .pricing-plan .price-wrap {
+    margin: 35px 0 10px;
+  }
+  .pricing-plan .plan-description {
+    margin-top: 1.2em;
+  }
+  .pricing-plan .plan-features {
+    margin: 30px 0 30px;
+    padding-top: 30px;
+  }
+}
+@media (max-width: 991px) {
+  .pricing-plan.plan-featured {
+    padding: 20px 0 20px;
+  }
+  .pricing-plan{
+    padding: 40px 0 40px;
+  }
+  .pricing-plan .plan-features ul {
+    line-height: 1.8;
+  }
+}
+@media (max-width: 767px) {
+  .pricing-plan.plan-featured{
+    transform: translateY(0);
+    padding: 40px 0 40px;
+  }
+}
+
+@media (max-width: 575px) {
+  .pricing-plan {
+    margin-top: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

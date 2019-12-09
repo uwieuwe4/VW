@@ -1,0 +1,44 @@
+/* bootstrap breadcrumbs*/
+.breadcrumb {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
+  border-radius: 0;
+  text-transform: capitalize;
+  color: inherit;
+  font-weight: 300;
+  font-size: 20px;
+  letter-spacing:0;
+  & > li {
+    display: inline-block;
+    padding: 0;
+    float: none;
+  }
+
+  .text-center & {
+    justify-content: center;
+  }
+  @media (min-width: 992px) {
+    .text-lg-right & {
+      justify-content: flex-end;
+    }
+  }
+}
+.breadcrumb-item+.breadcrumb-item:before{
+  content: '>';
+  color: $colorMain!important;
+}
+.breadcrumb > .active {
+  color: $colorMain;
+}
+
+.breadcrumb-item + .breadcrumb-item::before {
+  color: inherit;
+  padding: 0 13px;
+}
+@media (max-width: 479px) {
+  .breadcrumb-item + .breadcrumb-item::before {
+    color: inherit;
+    padding: 0 5px;
+  }
+}
