@@ -13,7 +13,7 @@
 Accent Colors:
 1: #16588e
 2: #81c4ff
-3: #82b440
+3: #e7222e
 4: #56d7fe
 
 Light section (.ls) colors:
@@ -1362,7 +1362,7 @@ td .media-body {
 }
 
 .alert-success {
-	background-color: #82b440;
+	background-color: #e7222e;
 }
 
 .alert-success:before {
@@ -7967,7 +7967,7 @@ img {
 }
 
 .s-overlay.cs.cs3:before {
-	background-color: #82b440;
+	background-color: #e7222e;
 }
 
 .s-overlay.ds:before {
@@ -8983,7 +8983,7 @@ p.entry-description {
 }
 
 .btn-maincolor3 {
-	background-color: #82b440;
+	background-color: #e7222e;
 }
 
 .btn-darkgrey {
@@ -9009,7 +9009,7 @@ p.entry-description {
 }
 
 .btn-outline-maincolor3 {
-	border-color: #82b440;
+	border-color: #e7222e;
 	color: #242327;
 }
 
@@ -9182,12 +9182,12 @@ p.entry-description {
 
 .corner.cs.cs3.corner-mirror:before,
 .corner.cs.cs3:after {
-	border-bottom-color: #82b440;
-	border-top-color: #82b440;
+	border-bottom-color: #e7222e;
+	border-top-color: #e7222e;
 }
 
 .corner.cs.cs3.corner-inverse:after {
-	border-bottom-color: #82b440;
+	border-bottom-color: #e7222e;
 }
 
 /*
@@ -9559,7 +9559,7 @@ p.entry-description {
 }
 
 .ds .links-maincolor3 a {
-	color: #82b440;
+	color: #e7222e;
 }
 
 .ds .links-maincolor3 a:hover {
@@ -9976,7 +9976,7 @@ p.entry-description {
 }
 
 .cs.cs3 {
-	background-color: #82b440;
+	background-color: #e7222e;
 }
 
 .cs.cs3 .color-main {
@@ -10660,8 +10660,8 @@ h1.color-main {
 }
 
 .color-main3 {
-	border-color: #82b440;
-	color: #82b440;
+	border-color: #e7222e;
+	color: #e7222e;
 }
 
 .color-dark {
@@ -10700,7 +10700,7 @@ h1.color-main {
 }
 
 .links-maincolor3 a {
-	color: #82b440;
+	color: #e7222e;
 }
 
 .links-grey a {
@@ -10728,7 +10728,7 @@ h1.color-main {
 }
 
 .bg-maincolor3 {
-	background-color: #82b440;
+	background-color: #e7222e;
 }
 
 .bg-dark {
@@ -18854,7 +18854,7 @@ h4.entry-title {
 }
 
 .cat-links a:nth-child(4n-4) {
-	background-color: #82b440;
+	background-color: #e7222e;
 }
 
 .cat-links a:nth-child(4n-3) {
@@ -21192,7 +21192,7 @@ h4.title_block {
 }
 
 #switcher-colors a.color2 {
-	background-color: #82b440;
+	background-color: #e7222e;
 }
 
 #switcher-colors a.color3 {
