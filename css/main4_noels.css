@@ -8224,7 +8224,7 @@ article.s-overlay.ds:before {
 }
 
 .preloader_image {
-	background: url(../img/preloader.gif) no-repeat 50% 50% transparent;
+	background: url(../img/ajax-loader.gif) no-repeat 50% 50% transparent;
 	height: 256px;
 	left: 50%;
 	margin: -128px 0 0 -128px;
@@ -18000,8 +18000,10 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .flexslider .intro_layer h1 {
-	display: inline-block;
-	line-height: 1.34;
+	line-height: 10.34;
+    position: absolute;
+    left: 2 em;
+    top: 10em;
 	margin: 0;
 }
 
