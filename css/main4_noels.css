@@ -3365,7 +3365,8 @@ a.pswp__share--download:hover {
 }
 
 .counter-wrap.color-main {
-	color: #16588e;
+	color: #ff0000;
+/*    color: #16588e;*/
 }
 
 .icon-styled + h3.counter-wrap {
@@ -16790,7 +16791,7 @@ a img.aligncenter {
 	}
 
 	.mobile-active .top-nav {
-		background-color: #111;
+		background-color: #0f0;
 		background-color: rgba(0, 0, 0, 0.9);
 		opacity: 1;
 		visibility: visible;
@@ -16833,7 +16834,7 @@ a img.aligncenter {
 	}
 
 	.top-nav .sf-menu a {
-		color: #242327;
+		color: #0f0;
 		display: block;
 		padding: 10px 10px;
 		z-index: 2;
@@ -18000,7 +18001,7 @@ body.active-side-header.slide-right .page_header_side {
 }
 
 .page_slider .flexslider .intro_layer h1 {
-	line-height: 10.34;
+	line-height: 1.34;
     position: absolute;
     left: 2 em;
     top: 10em;
