@@ -2509,7 +2509,7 @@ html[xmlns] .slides {
 	large image loads on top of it
 */
 .pswp__img--placeholder--blank {
-	background: #222;
+	background: #0f0;
 }
 
 .pswp--ie .pswp__img {
@@ -9410,12 +9410,13 @@ p.entry-description {
 }
 
 .ds * .ds {
-	background-color: #18171a;
+	background-color: transparent;
 }
 
 /* dark background section - .ds.ms */
 .ds.ms {
 	background-color: #03152e;
+    opacity: 0.5;
 }
 
 .ds.ms .ds.ms {
@@ -16463,7 +16464,7 @@ a img.aligncenter {
 
 @media (min-width: 1200px) {
 	.sf-menu > li > a.sf-with-ul:after {
-		color: #fff;
+		color: #f00;
 		content: "\f078";
 		font-family: "FontAwesome";
 		font-size: 10px;
