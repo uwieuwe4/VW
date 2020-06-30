@@ -1,0 +1,7 @@
+curl -u noel:noel -X POST --data {"fields":{"project":{"key":"PVP"},"summary":"Create Issue Validator Test","assignee":{"name":"noel"},"description":"test","issuetype":{"id":"10900"},"customfield_10111":"404"}} -H "Content-Type: application/json" http://jira.local/rest/api/2/issue/
+
+
+
+
+
+
